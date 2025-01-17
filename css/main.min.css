@@ -658,18 +658,7 @@ strong {
     height: 100%;
     width: 100%;
 }
-.visualizer {
-    position: absolute;
-    
-    inset: auto -20px -20px;
-    z-index: 0;
-    pointer-events: none;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-    height: 100%;
-    opacity: 0.5;
-}
+
 .visualizer-filter {
     display: none;
 }
