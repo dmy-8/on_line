@@ -262,6 +262,38 @@ strong {
 .toggle-options {
     gap: 0.5rem;
 }
+@media (min-width: 992px) {
+    :root {
+        --main-padding: 3vw;
+    }
+    .btn {
+        --btn-fs: 0.875vw;
+        --btn-padding: 0.75vw;
+        --i-size: 1.25vw;
+        --btn-gap: 0.5vw;
+    }
+    .header-logo-img {
+        max-width: 10vw;
+        height: auto;
+    }
+    .toggle-options {
+        gap: 0.5vw;
+    }
+}
+@media (max-width: 991px) {
+    .header {
+        background: var(--accent, var(--bg-gradient));
+        box-shadow: var(--shadow-l);
+    }
+    .toggle-options {
+        --btn-fs: 0;
+        --btn-gap: 0;
+        --i-size: 16px;
+    }
+}
+.toggle-options {
+    gap: 0.5rem;
+}
 
 .main > * + * {
     margin-top: 3rem;
