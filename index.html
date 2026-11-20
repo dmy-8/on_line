@@ -1,4 +1,4 @@
-﻿
+
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 <script src='lunaradio.js'></script>
 <body oncontextmenu="return false" onkeydown="return false"></body>
@@ -19,7 +19,7 @@ onlycoverimage: "false", //true para mostrar solo logo radio
 coverstyle: "square",
 usevisualizer: "", 
 visualizertype: "8", 
-metadatatechnic: "18fe07917957c289983464588aabddfb", //corsproxy, ownmetadataurl
+metadatatechnic: "zeno", // método Zeno; no colocar aquí el ID de la emisora
 ownmetadataurl: "https://api.zeno.fm/mounts/metadata/subscribe/z97828369f0uv",
 usestreamcorsproxy: "false", //true o false
 corsproxy: "",
@@ -36,9 +36,10 @@ radionomyapikey: "",
 radiojarid: "",  
 radiocoid: "",
 itunestoken: "1000lIPN",
-metadatainterval: "20000", 
+metadatainterval: "5000", // consultar metadata cada 5 segundos 
 volume: "100",
 debug: "false",
+uselocalstorage: "false",
 autoplay: "true",
 visualizeropacity: "1.0",
 multicolorvisualizer: "true",
